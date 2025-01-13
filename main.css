@@ -1,12 +1,37 @@
-h1 {
-    color: green;
-    font-size: 64px;
+* {
+  font-family: "Roboto", serif;
 }
 
-div h1 {
-    font-size: 200px
-}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1F2937;
+    color:  #E5E7EB;
+    padding: 15px 100px;
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+.navigation {
+  display: flex;
+  gap: 16px;
+  }
 
-.heading{
-    color: purple
-}
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1F2937;
+    color:  #E5E7EB;
+    padding: 15px 100px;
+  }
+  
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8
+  }
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB
+  }
