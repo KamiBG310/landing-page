@@ -47,6 +47,9 @@
   background: #999ca1;
   height: 200px;
   flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button {
@@ -61,4 +64,47 @@
 
 .button:hover {
   opacity: 0.6;
+}
+
+.information-section{
+  display:flex;
+}
+
+.information-header{
+  width: 100%;
+  font-size: 36px;
+  font-weight: 900;
+  color:#1F2937;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information-containers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.item{
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: 4px solid #3882F6;
+  background: #fff;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text{
+  text-align:center;
 }
